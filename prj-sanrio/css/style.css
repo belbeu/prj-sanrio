@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(245, 131, 150);
+    color: aliceblue;
+    width: auto;
+    height: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+table, tr, td{
+    border: 0.5px solid rgb(243, 238, 238);
+    object-position: center;
+    align-items: center;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+td{
+    padding: 6px;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+}
+p{
+    width: 90%;
+    font-size: 30px;
+}
+.kitty{
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
